@@ -1,0 +1,171 @@
+.navbar-brand {
+  margin-left: 10px;
+  color: #33658e;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-link {
+  text-align: right;
+  color: #33658e;
+  font-family: "Playfair Display", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: #33658e;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("img/hero-img.jpg");
+  height: 100%;
+  min-height: 50vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 10%;
+}
+
+.hero-img img {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 5px transparent;
+  background-image: linear-gradient(white, white), linear-gradient(45deg, cornflowerblue, lightblue, dodgerblue, aliceblue);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0px 0px 25px cornflowerblue;
+}
+
+.hero-text h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10px;
+  text-align: center;
+  position: relative;
+  color: aliceblue;
+  margin-top: 30px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.hero-text h2 {
+  font-family: "Playwrite CO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 1.25em;
+  text-align: center;
+  position: relative;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px cornflowerblue;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightsteelblue;
+  color: #33658e;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  padding-top: 10px;
+  font-weight: 600;
+  
+}
+
+.opening-container h1 {
+  font-family: playfair display, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #33658e;
+  margin-top: 90px;
+}
+
+.mission-container img {
+  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px; */
+  min-width:50%;
+}
+
+.contact-container img {
+  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px; */
+  min-width:50%;
+}
+
+.my-miss {
+  font-family: "Playwrite CO", cursive;
+  font-size: 1.5em;
+  color: #33658e;
+  margin-right: .25em;
+  font-weight: 650;
+}
+
+.col-md-4 h3 {
+  font-family: "Playwrite CO", cursive;
+  font-size: 1.5em;
+  color: #33658e;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 500;
+  
+}
+
+.con-icons {
+  color: #33658e;
+}
+
+.mission-container p {
+  font-family: raleway, sans-serif;
+  font-size: 1em;
+  color: #33658e;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  padding-left:2em;
+  line-height: 2;
+  margin-bottom: 2em;
+  /* margin-right: auto;
+  margin-left: auto;
+  padding-right:30px;
+  padding-left:30px;
+  ; */
+}
+
+.contact-container p {
+  font-family: raleway, sans-serif;
+  font-size: 1em;
+  color: #33658e;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  padding-left:2em;
+  line-height: 2;
+  margin-bottom: 2em;
+  /* margin-right: auto;
+  margin-left: auto;
+  padding-right:30px;
+  padding-left:30px;
+  ; */
+}
+
+.override {
+  padding: 0;
+}
