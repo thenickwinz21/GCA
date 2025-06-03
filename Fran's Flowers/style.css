@@ -1,0 +1,53 @@
+body {
+    color: #74512D;
+    background-color: #F3F7EC;
+    font-family: "LXGW WenKai TC", cursive;
+}
+
+header {
+    color: #30784d;
+    font-family: "Birthstone Bounce", cursive;
+    font-size: 36px;
+}
+
+h2 {
+    color: #74512D;
+    font-family: "Patrick Hand SC", cursive;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #74512D;
+    color: #74512D;
+    text-align: center;
+}
+hr:after {
+    content: "ꕥ";
+    color: #30784d;
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F3F7EC;
+}
+
+#donation {
+    color: #30784d;
+}
+
+h5 {
+    text-decoration: line-through;
+}
+
+address {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold; 
+}
