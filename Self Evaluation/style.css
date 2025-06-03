@@ -1,0 +1,122 @@
+
+body {
+  background-color: white;
+  margin: 0;
+  color: rosybrown;
+}
+
+header {
+  background-color: rosybrown;
+  height: 100px;
+}
+
+
+.nav ul {
+  background-color: rosybrown;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: left;
+}
+
+.nav li {
+  background-color: rosybrown;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.nav a {
+  background-color: rosybrown;
+  color: white;
+}
+
+.hero-image {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/hotel.jpg");
+  min-height: 50vh; 
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 50vh;
+    background-color: rgba(0, 0, 0, .5)
+}
+.hero-text h1 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    position: relative;
+    top: -25px;
+    margin: 0;
+    font-size: 5em;
+    color: #fff;
+    z-index: 1;
+}
+
+.hero-text p {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    position: relative;
+    top: -350px;
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 5px;
+}
+
+.about-us h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.about-us img {
+  margin-left: 100px;
+  width: 200px;
+  height: 300px;
+}
+
+.about-us h3 {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.text1 p {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+
+
+.text2 p {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 100px;
+}
