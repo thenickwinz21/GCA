@@ -1,0 +1,91 @@
+
+body {
+  background-color: white;
+  margin: 0;
+  color: darkgreen;
+}
+
+header {
+  background-color: darkgreen;
+  height: 100px;
+}
+
+img {
+  background-color: darkgreen;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+ 
+.nav ul {
+  background-color: darkgreen;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+.nav li {
+  background-color: darkgreen;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: darkgreen;
+  color: white;
+}
+
+section {
+  background-color: white;
+  width: 840px;
+  margin: 100px auto auto auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: beige;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 100px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#quote-form-container {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: darkgreen;
+}
+
+#quote-form {
+  background-color: white;
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+
+button {
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  height: 40px;
+  width:  80px;
+}
